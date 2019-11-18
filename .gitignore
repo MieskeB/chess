@@ -1,0 +1,53 @@
+# Eclipse
+.classpath
+.project
+.settings/
+
+# Intellij
+*/.idea/*
+/.idea/*
+.idea/*
+*/.idea/
+/.idea/
+.idea/
+*.iml
+*.iws
+*/out/*
+/out/*
+out/*
+*/out/
+/out/
+out/
+*/target/*
+/target/*
+target/*
+*/target/
+/target/
+target/
+
+# Mac
+.DS_Store
+
+# Maven
+log/
+target/
+
+*.tmp
+
+# Word temporary
+~$*.doc*
+
+# Word Auto Backup File
+Backup of *.doc*
+
+# Excel temporary
+~$*.xls*
+
+# Excel Backup File
+*.xlk
+
+# PowerPoint temporary
+~$*.ppt*
+
+# Visio autosave temporary files
+*.~vsd*

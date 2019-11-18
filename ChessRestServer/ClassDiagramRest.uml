@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="347.7232142857142" y="277.0">nl.michelbijnen.presentation.Factory</node>
+    <node x="0.0" y="0.0">nl.michelbijnen.presentation.Authentication</node>
+    <node x="1196.6815476190477" y="356.0">nl.michelbijnen.presentation.ViewModel.UpdateViewModel</node>
+    <node x="738.2173280423282" y="356.0">nl.michelbijnen.presentation.Auth</node>
+    <node x="1729.6815476190477" y="356.0">nl.michelbijnen.presentation.ViewModel.LogoutViewModel</node>
+    <node x="1039.6815476190477" y="356.0">nl.michelbijnen.presentation.ViewModel.LoginViewModel</node>
+    <node x="80.09821428571422" y="89.0">nl.michelbijnen.presentation.IUserLogic</node>
+    <node x="327.0982142857142" y="89.0">nl.michelbijnen.presentation.MySqlConnector</node>
+    <node x="557.8482142857142" y="188.0">nl.michelbijnen.presentation.AuthenticationLogic</node>
+    <node x="840.6815476190475" y="475.0">nl.michelbijnen.presentation.controller.UserController</node>
+    <node x="1361.6815476190477" y="356.0">nl.michelbijnen.presentation.ViewModel.ForgotPasswordViewModel</node>
+    <node x="680.3482142857142" y="89.0">nl.michelbijnen.presentation.IAuthenticationLogic</node>
+    <node x="1573.6815476190477" y="356.0">nl.michelbijnen.presentation.ViewModel.ScoreViewModel</node>
+    <node x="220.0" y="549.0">nl.michelbijnen.presentation.config.SwaggerConfig</node>
+    <node x="870.6815476190475" y="356.0">nl.michelbijnen.presentation.ViewModel.RegisterViewModel</node>
+    <node x="273.6820105820102" y="0.0">nl.michelbijnen.presentation.User</node>
+    <node x="0.0" y="549.0">nl.michelbijnen.presentation.PresentationApplication</node>
+    <node x="267.0982142857142" y="188.0">nl.michelbijnen.presentation.UserDal</node>
+    <node x="393.8482142857142" y="188.0">nl.michelbijnen.presentation.AuthenticationDal</node>
+    <node x="204.09821428571422" y="89.0">nl.michelbijnen.presentation.IUserDal</node>
+    <node x="99.01534391534358" y="188.0">nl.michelbijnen.presentation.UserLogic</node>
+    <node x="513.3482142857142" y="89.0">nl.michelbijnen.presentation.IAuthenticationDal</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="nl.michelbijnen.presentation.AuthenticationLogic" target="nl.michelbijnen.presentation.IAuthenticationDal">
+      <point x="-52.0" y="-14.5" />
+      <point x="583.8482142857142" y="168.0" />
+      <point x="586.8482142857142" y="168.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="nl.michelbijnen.presentation.IUserLogic" target="nl.michelbijnen.presentation.Authentication">
+      <point x="-25.75" y="-14.5" />
+      <point x="105.84821428571422" y="69.0" />
+      <point x="111.125" y="69.0" />
+      <point x="47.625" y="14.5" />
+    </edge>
+    <edge source="nl.michelbijnen.presentation.controller.UserController" target="nl.michelbijnen.presentation.ViewModel.RegisterViewModel">
+      <point x="5.1666666666667425" y="-14.5" />
+      <point x="907.8482142857142" y="405.0" />
+      <point x="945.1815476190475" y="405.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="nl.michelbijnen.presentation.UserLogic" target="nl.michelbijnen.presentation.IUserDal">
+      <point x="25.0" y="-14.5" />
+      <point x="174.01534391534358" y="158.0" />
+      <point x="219.26488095238085" y="158.0" />
+      <point x="-30.33333333333337" y="14.5" />
+    </edge>
+    <edge source="nl.michelbijnen.presentation.UserDal" target="nl.michelbijnen.presentation.MySqlConnector">
+      <point x="33.0" y="-14.5" />
+      <point x="344.0982142857142" y="168.0" />
+      <point x="361.3482142857142" y="168.0" />
+      <point x="-34.25" y="14.5" />
+    </edge>
+    <edge source="nl.michelbijnen.presentation.Factory" target="nl.michelbijnen.presentation.IAuthenticationLogic">
+      <point x="36.25" y="-14.5" />
+      <point x="427.4732142857142" y="257.0" />
+      <point x="780.8482142857142" y="257.0" />
+      <point x="780.8482142857142" y="168.0" />
+      <point x="759.8482142857142" y="168.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="nl.michelbijnen.presentation.UserLogic" target="nl.michelbijnen.presentation.IUserLogic">
+      <point x="-8.333333333333258" y="-14.5" />
+      <point x="140.68201058201032" y="168.0" />
+      <point x="131.59821428571422" y="168.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="nl.michelbijnen.presentation.Auth" target="nl.michelbijnen.presentation.Factory">
+      <point x="-18.5" y="-14.5" />
+      <point x="756.7173280423282" y="331.0" />
+      <point x="412.9732142857142" y="331.0" />
+      <point x="21.75" y="14.5" />
+    </edge>
+    <edge source="nl.michelbijnen.presentation.AuthenticationDal" target="nl.michelbijnen.presentation.IAuthenticationDal">
+      <point x="36.0" y="-14.5" />
+      <point x="501.8482142857142" y="168.0" />
+      <point x="537.8482142857142" y="168.0" />
+      <point x="-49.0" y="14.5" />
+    </edge>
+    <edge source="nl.michelbijnen.presentation.IUserLogic" target="nl.michelbijnen.presentation.User">
+      <point x="25.75" y="-14.5" />
+      <point x="157.34821428571422" y="49.0" />
+      <point x="278.75343915343876" y="49.0" />
+      <point x="-30.428571428571445" y="14.5" />
+    </edge>
+    <edge source="nl.michelbijnen.presentation.Factory" target="nl.michelbijnen.presentation.AuthenticationDal">
+      <point x="7.25" y="-14.5" />
+      <point x="398.4732142857142" y="237.0" />
+      <point x="465.8482142857142" y="237.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="nl.michelbijnen.presentation.UserDal" target="nl.michelbijnen.presentation.IUserDal">
+      <point x="-33.0" y="-14.5" />
+      <point x="278.0982142857142" y="168.0" />
+      <point x="279.9315476190475" y="168.0" />
+      <point x="30.333333333333258" y="14.5" />
+    </edge>
+    <edge source="nl.michelbijnen.presentation.controller.UserController" target="nl.michelbijnen.presentation.ViewModel.ForgotPasswordViewModel">
+      <point x="36.16666666666674" y="-14.5" />
+      <point x="938.8482142857142" y="435.0" />
+      <point x="1457.6815476190477" y="435.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="nl.michelbijnen.presentation.controller.UserController" target="nl.michelbijnen.presentation.Factory">
+      <point x="-36.16666666666674" y="-14.5" />
+      <point x="866.5148809523807" y="435.0" />
+      <point x="369.4732142857142" y="435.0" />
+      <point x="-21.75" y="14.5" />
+    </edge>
+    <edge source="nl.michelbijnen.presentation.AuthenticationLogic" target="nl.michelbijnen.presentation.IAuthenticationLogic">
+      <point x="52.0" y="-14.5" />
+      <point x="687.8482142857142" y="168.0" />
+      <point x="706.8482142857142" y="168.0" />
+      <point x="-53.0" y="14.5" />
+    </edge>
+    <edge source="nl.michelbijnen.presentation.controller.UserController" target="nl.michelbijnen.presentation.ViewModel.LogoutViewModel">
+      <point x="56.83333333333326" y="-14.5" />
+      <point x="959.5148809523807" y="455.0" />
+      <point x="1802.1815476190477" y="455.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="nl.michelbijnen.presentation.Factory" target="nl.michelbijnen.presentation.IUserLogic">
+      <point x="-21.75" y="-14.5" />
+      <point x="369.4732142857142" y="247.0" />
+      <point x="209.51534391534358" y="247.0" />
+      <point x="209.51534391534358" y="138.0" />
+      <point x="165.93154761904748" y="138.0" />
+      <point x="34.33333333333326" y="14.5" />
+    </edge>
+    <edge source="nl.michelbijnen.presentation.controller.UserController" target="nl.michelbijnen.presentation.Authentication">
+      <point x="-56.833333333333485" y="-14.5" />
+      <point x="845.848214285714" y="455.0" />
+      <point x="27.874999999999886" y="455.0" />
+      <point x="27.874999999999886" y="69.0" />
+      <point x="15.875" y="69.0" />
+      <point x="-47.625" y="14.5" />
+    </edge>
+    <edge source="nl.michelbijnen.presentation.UserLogic" target="nl.michelbijnen.presentation.User">
+      <point x="8.333333333333258" y="-14.5" />
+      <point x="157.34867724867684" y="148.0" />
+      <point x="193.59821428571422" y="148.0" />
+      <point x="193.59821428571422" y="59.0" />
+      <point x="288.8962962962959" y="59.0" />
+      <point x="-20.285714285714334" y="14.5" />
+    </edge>
+    <edge source="nl.michelbijnen.presentation.controller.UserController" target="nl.michelbijnen.presentation.Auth">
+      <point x="-25.833333333333485" y="-14.5" />
+      <point x="876.848214285714" y="425.0" />
+      <point x="775.2173280423282" y="425.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="nl.michelbijnen.presentation.controller.UserController" target="nl.michelbijnen.presentation.ViewModel.UpdateViewModel">
+      <point x="25.833333333333258" y="-14.5" />
+      <point x="928.5148809523807" y="425.0" />
+      <point x="1269.1815476190477" y="425.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="nl.michelbijnen.presentation.Factory" target="nl.michelbijnen.presentation.UserDal">
+      <point x="-7.25" y="-14.5" />
+      <point x="383.9732142857142" y="237.0" />
+      <point x="311.0982142857142" y="237.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="nl.michelbijnen.presentation.UserLogic" target="nl.michelbijnen.presentation.Authentication">
+      <point x="-41.66666666666674" y="-14.5" />
+      <point x="107.34867724867684" y="158.0" />
+      <point x="45.375" y="158.0" />
+      <point x="45.375" y="69.0" />
+      <point x="47.625" y="69.0" />
+      <point x="-15.875" y="14.5" />
+    </edge>
+    <edge source="nl.michelbijnen.presentation.controller.UserController" target="nl.michelbijnen.presentation.User">
+      <point x="-15.5" y="-14.5" />
+      <point x="887.1815476190475" y="415.0" />
+      <point x="849.8482142857142" y="415.0" />
+      <point x="849.8482142857142" y="69.0" />
+      <point x="329.4677248677244" y="69.0" />
+      <point x="20.28571428571422" y="14.5" />
+    </edge>
+    <edge source="nl.michelbijnen.presentation.controller.UserController" target="nl.michelbijnen.presentation.ViewModel.LoginViewModel">
+      <point x="15.5" y="-14.5" />
+      <point x="918.1815476190475" y="415.0" />
+      <point x="1108.1815476190477" y="415.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="nl.michelbijnen.presentation.Factory" target="nl.michelbijnen.presentation.AuthenticationLogic">
+      <point x="21.75" y="-14.5" />
+      <point x="412.9732142857142" y="247.0" />
+      <point x="635.8482142857142" y="247.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="nl.michelbijnen.presentation.IUserDal" target="nl.michelbijnen.presentation.User">
+      <point x="0.0" y="-14.5" />
+      <point x="249.59821428571422" y="69.0" />
+      <point x="299.0391534391531" y="69.0" />
+      <point x="-10.14285714285711" y="14.5" />
+    </edge>
+    <edge source="nl.michelbijnen.presentation.UserDal" target="nl.michelbijnen.presentation.User">
+      <point x="-11.0" y="-14.5" />
+      <point x="300.0982142857142" y="168.0" />
+      <point x="305.5982142857142" y="168.0" />
+      <point x="305.5982142857142" y="69.0" />
+      <point x="309.1820105820102" y="69.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="nl.michelbijnen.presentation.Auth" target="nl.michelbijnen.presentation.IAuthenticationLogic">
+      <point x="18.5" y="-14.5" />
+      <point x="793.7173280423282" y="168.0" />
+      <point x="812.8482142857142" y="168.0" />
+      <point x="53.0" y="14.5" />
+    </edge>
+    <edge source="nl.michelbijnen.presentation.controller.UserController" target="nl.michelbijnen.presentation.IUserLogic">
+      <point x="-46.5" y="-14.5" />
+      <point x="856.1815476190475" y="445.0" />
+      <point x="88.51534391534358" y="445.0" />
+      <point x="88.51534391534358" y="168.0" />
+      <point x="97.26488095238096" y="168.0" />
+      <point x="-34.33333333333326" y="14.5" />
+    </edge>
+    <edge source="nl.michelbijnen.presentation.controller.UserController" target="nl.michelbijnen.presentation.ViewModel.ScoreViewModel">
+      <point x="46.5" y="-14.5" />
+      <point x="949.1815476190475" y="445.0" />
+      <point x="1641.6815476190477" y="445.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="nl.michelbijnen.presentation.Factory" target="nl.michelbijnen.presentation.UserLogic">
+      <point x="-36.25" y="-14.5" />
+      <point x="354.9732142857142" y="257.0" />
+      <point x="149.01534391534358" y="257.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="nl.michelbijnen.presentation.AuthenticationDal" target="nl.michelbijnen.presentation.MySqlConnector">
+      <point x="-36.0" y="-14.5" />
+      <point x="34.25" y="14.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="937.5" y="289.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

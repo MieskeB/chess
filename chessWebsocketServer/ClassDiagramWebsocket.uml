@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="141.0" y="0.0">nl.michelbijnen.RequestException</node>
+    <node x="142.0" y="375.0">nl.michelbijnen.Matches</node>
+    <node x="163.0" y="301.0">nl.michelbijnen.RestMethod</node>
+    <node x="182.0" y="153.0">nl.michelbijnen.WebsocketLogic</node>
+    <node x="320.0" y="301.0">nl.michelbijnen.Searching</node>
+    <node x="0.0" y="0.0">nl.michelbijnen.IUserRest</node>
+    <node x="0.0" y="153.0">nl.michelbijnen.ChessWebsocket</node>
+    <node x="0.0" y="301.0">nl.michelbijnen.RestEndPoint</node>
+    <node x="1.5" y="79.0">nl.michelbijnen.UserRest</node>
+    <node x="0.0" y="449.0">nl.michelbijnen.User</node>
+    <node x="172.0" y="227.0">nl.michelbijnen.MethodLogic</node>
+    <node x="280.0" y="375.0">nl.michelbijnen.Factory</node>
+    <node x="0.0" y="227.0">nl.michelbijnen.Authentication</node>
+    <node x="0.0" y="375.0">nl.michelbijnen.MainApp</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="nl.michelbijnen.UserRest" target="nl.michelbijnen.IUserRest">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="210.0" y="239.0" />
+  <SelectedNodes>
+    <node>nl.michelbijnen.RestMethod</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
