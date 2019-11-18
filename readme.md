@@ -1,5 +1,5 @@
 # Chess
-By Michel Bijnen
+By MieskeB
 
 ## Features
 - Singleplayer
