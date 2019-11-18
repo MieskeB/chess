@@ -17,17 +17,3 @@ By Michel Bijnen
 - Components: Client <-> websockets server <-> rest server
 
 For further details, check the Documentation folder
-
-## Jenkins
-
-http://michelbijnen.nl:1212/job/Chess/
-
-Everything is without authentication
-
-## SonarQube
-
-http://michelbijnen.nl:1337/projects
-
-Login:
-- Username: admin
-- Password: admin
